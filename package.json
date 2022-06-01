@@ -1,0 +1,21 @@
+{
+  "name": "jpeg_gobbler",
+  "version": "1.0.0",
+  "description": "gobble nft's up with a swarm",
+  "main": "gobbler",
+  "scripts": {
+    "gobble": "node gobbler.js",
+    "swarm": "node swarmer.js"
+  },
+  "keywords": [
+    "nft"
+  ],
+  "author": "@AltLoot",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.7",
+    "readline": "^1.3.0"
+  }
+}
