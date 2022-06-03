@@ -12,7 +12,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   }
 });
 
-const { API_URL, PRIVATE_KEY, API_KEY } = process.env;
+const { URL, PKEY, API_KEY } = process.env;
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
@@ -23,12 +23,12 @@ module.exports = {
     hardhat: {
     },
     rinkeby: {
-      url: API_URL,
-      accounts: [PRIVATE_KEY]
+      url: URL,
+      accounts: [PKEY],
     }
   },
   solidity: {
-    version: "0.5.15",
+    version: "0.7.0",
     settings: {
       optimizer: {
         enabled: true,
