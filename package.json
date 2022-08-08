@@ -4,8 +4,7 @@
   "description": "gobble nft's up with a swarm",
   "main": "gobbler",
   "scripts": {
-    "gobble": "node scripts/gobbler.js",
-    "contracts": "node scripts/multisend_deployer.js"
+    "gobbler": "node scripts/gobble.js"
   },
   "keywords": [
     "nft"
