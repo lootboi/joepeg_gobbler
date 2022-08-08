@@ -41,7 +41,7 @@ Follow the prompts in the terminal! Good luck!
 
 ## To Do
 - Create test scripts
-- Implement multicall or create funding contract to fund wallets in once transactions and replacement fee error
+- Implement multicall contract or create funding contract to fund wallets and avoid replacement fee error
 - Unit test using test scripts
 - Explore ways to limit bot wallets from competing with themselves
 	- Same gas values or different gas values?
